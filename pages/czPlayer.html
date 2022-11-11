@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Крестики-нолики</title>
+	<meta charset="utf-8">
+	<link rel="shortcut icon" href="../images/favicon.ico" type="image/x-icon">
+	<link rel="stylesheet" href="czPlayer.css">
+</head>
+<body>
+	<div align="center" id="main">
+		<h2>Крестики-нолики на двоих игроков</h2>
+		<table id="field">
+			<tr>
+				<td class="cell"></td>
+				<td class="cell"></td>
+				<td class="cell"></td>
+			</tr>
+			<tr>
+				<td class="cell"></td>
+				<td class="cell"></td>
+				<td class="cell"></td>
+			</tr>
+			<tr>
+				<td class="cell"></td>
+				<td class="cell"></td>
+				<td class="cell"></td>
+			</tr>
+		</table>
+		
+		<div>
+			<p id="round">Сейчас ходит Х</p>
+			<p id="result"></p>
+			<input type="submit" value="Начать заново" id="reset">
+		</div>
+
+		<div>
+			<table id="resultsNum">
+				<tr>
+					<td>Выиграл Х:</td>
+					<td id="winX"></td>
+				</tr>
+				<tr>
+					<td>Выиграл О:</td>
+					<td id="winO"></td>
+				</tr>
+				<tr>
+					<td>Ничья:</td>
+					<td id="drawn"></td>
+				</tr>
+			</table>
+		</div>
+
+		<div id="instruction">
+			<p style="text-align: center; font-size: 22px; font-style: italic;">Инструкция по игре</p>
+			<p>Игроки делают ход по очереди. Под полем игры высвечивается подсказка, кто делает очередной ход.
+			В новой игре первый ход делает игрок, победивший в предыдущей игре.
+			Если игра закончилась ничьёй, первый ход делает тот, кто ходил первым в предыдущей игре.
+			Чтобы начать очередную партию, нажмите на кнопку "Начать заново". Если Вы хотите начать всю игру заново,
+			достаточно просто обновить страницу. Удачи!</p>
+		</div>
+
+		<a href="../index.html" id="hrefOnMainPage"><input type="submit" value="Вернуться на главную страницу" id="onMainPage"></a>
+
+		<div id="footer">
+			&copy;&nbsp;Дмитрий Терентьев
+		</div>
+	</div>
+
+	<script src="czPlayer.js"></script>
+</body>
+</html>

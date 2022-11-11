@@ -1,0 +1,58 @@
+body {
+    background-image: url('images/background.png');
+}
+
+div#main {
+    vertical-align: middle;
+    margin-top: 250px;
+}
+
+h2 {
+    font-family: Calibri;
+    color: green;
+}
+
+div#menu {
+    width: 750px;
+    padding: 15px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Calibri;
+}
+
+table#gameList {
+    text-align: center;
+}
+
+table#gameList td {
+    width: 300px;
+}
+
+a {
+    text-decoration: none;
+}
+
+#onMainPage {
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ace3b2;
+    border-color: #ace3b2;
+    outline: none;
+    cursor: pointer;
+}
+
+div#footer {
+    text-align: right;
+    background: #97c0C4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+div#footer a:visited {
+    color: #965d39;
+}

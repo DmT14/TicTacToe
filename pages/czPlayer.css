@@ -1,0 +1,100 @@
+body {
+    background-image: url('../images/background.png');
+}
+
+div#main {
+    vertical-align: middle;
+    margin-top: 120px;
+}
+
+h2 {
+    font-family: Calibri;
+    color: green;
+}
+
+table#field {
+    width: 225px;
+    height: 225px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    background-color: #cad3de;
+}
+
+table#field td {
+    width: 25px;
+    height: 25px;
+    border: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    font-size: 20px;
+    font-family: Arial;
+    user-select: none;
+}
+
+table#field td:hover {
+    background-color: #bab5b5;
+    cursor: pointer;
+}
+
+table#resultsNum {
+    width: 160px;
+    height: 99px;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 5px;
+}
+
+table#resultsNum td#winX,
+table#resultsNum td#winO,
+table#resultsNum td#drawn {
+    width: 20px;
+    text-align: center;
+}
+
+table#resultsNum td {
+    width: 100px;
+    height: 33px;
+    border: 1px solid black;
+    background-color: #bdffde;
+}
+
+#reset {
+    background-color: #d9b6b6;
+    border-color: #d9b6b6;
+    outline: none;
+    cursor: pointer;
+}
+
+div#instruction {
+    width: 500px;
+    text-align: justify;
+    font-size: 18px;
+    font-family: Calibri;
+    border: 1px solid red;
+    padding: 15px;
+}
+
+#onMainPage {
+    margin-top: 15px;
+    border-radius: 10px;
+    background-color: #ace3b2;
+    border-color: #ace3b2;
+    outline: none;
+    cursor: pointer;
+}
+
+div#footer {
+    text-align: right;
+    background: #97c0C4;
+    padding-top: 5px;
+    padding-bottom: 10px;
+    padding-right: 25px;
+    padding-left: 25px;
+    bottom: 0;
+    right: 0;
+    position: absolute;
+}
+
+div#footer a:visited {
+    color: #965d39;
+}
